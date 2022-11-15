@@ -12,7 +12,7 @@ builtin_t builtin[] = {
 { "setenv", _setenv },
 { "unsetenv", _unsetenv },
 { "cd", cd_shell },
-{ "help", get_help },	 
+{ "help", get_help },
 { NULL, NULL }
 };
 int i;

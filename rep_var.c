@@ -15,7 +15,7 @@ _envr = data->_environ;
 for (row = 0; _envr[row]; row++)
 {
 for (j = 1, chr = 0; _envr[row][chr]; chr++)
-{	  
+{
 if (_envr[row][chr] == '=')
 {
 lval = _strlen(_envr[row] + chr + 1);
@@ -69,7 +69,7 @@ else if (in[i + 1] == ';')
 add_rvar_node(h, 0, NULL, 0);
 else
 check_env(h, in + i, data);
-}      
+}
 }
 return (i);
 }

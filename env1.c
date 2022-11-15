@@ -33,8 +33,8 @@ char *ptr_env;
 int i, mov;
 /* Initialize ptr_env value */
 ptr_env = NULL;
-mov = 0;  
-/* Compare all environment variables */  
+mov = 0;
+/* Compare all environment variables */
 /* environ is declared in the header file */
 for (i = 0; _environ[i]; i++)
 {
